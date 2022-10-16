@@ -1,0 +1,17 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="100" height="100" fill="#F5F5F5"/>
+<g clip-path="url(#clip0_17_2)">
+<rect width="1717" height="1080" transform="translate(-410 -186)" fill="white"/>
+<rect x="-410" y="-186" width="1717" height="1080" fill="#000766"/>
+<path d="M-71 -99H1307V894H-71V-99Z" fill="#F5F7F9"/>
+<rect x="-45" y="-47" width="1320" height="392" rx="5" fill="white"/>
+<rect width="100" height="100" rx="50" fill="#B5B2B2"/>
+<path d="M49.9998 50C52.6519 50 55.1955 48.9464 57.0708 47.0711C58.9462 45.1957 59.9998 42.6522 59.9998 40C59.9998 37.3478 58.9462 34.8043 57.0708 32.9289C55.1955 31.0536 52.6519 30 49.9998 30C47.3476 30 44.8041 31.0536 42.9287 32.9289C41.0533 34.8043 39.9998 37.3478 39.9998 40C39.9998 42.6522 41.0533 45.1957 42.9287 47.0711C44.8041 48.9464 47.3476 50 49.9998 50Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M50 52.5C43.325 52.5 30 55.85 30 62.5V70H70V62.5C70 55.85 56.675 52.5 50 52.5Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_17_2">
+<rect width="1717" height="1080" fill="white" transform="translate(-410 -186)"/>
+</clipPath>
+</defs>
+</svg>
