@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery.scrollbar.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/rateyo.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class="admin-container">
+      <div class="slidebar-wrap">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/images//logo2.svg" alt="logo" />
+          </a>
+        </div>
+        <ul class="mainmenu">
+          <li><a href="index.html">Dashboard</a></li>
+        </ul>
+        <div class="search-menu">
+          <input type="text" placeholder="Search keyboard" />
+          <i class="fa fa-search"></i>
+        </div>
+        <ul class="submenus">
+          <li><a class="active" href="demographics.html">Demographics </a></li>
+          <li><a href="#">About Blood Pressure </a></li>
+          <li><a href="#">Drugs That Increase </a></li>
+          <li><a href="#">Cardiovascular Risk </a></li>
+          <li><a href="#">The Factors That Influence </a></li>
+          <li><a href="#">Diagnosis</a></li>
+          <li><a href="#">Assessment</a></li>
+          <li><a href="#">Unusual Types of Hypertension</a></li>
+          <li><a href="#">Definitions of High Blood Pressure </a></li>
+          <li><a href="#">BP Measurement </a></li>
+          <li><a href="#">Lifestyle</a></li>
+          <li><a href="#">Physical Activity</a></li>
+          <li><a href="#">Diet</a></li>
+          <li><a href="#">Weight</a></li>
+          <li><a href="#">Salt</a></li>
+          <li><a href="#">Demographics </a></li>
+          <li><a href="#">About Blood Pressure </a></li>
+          <li><a href="#">Drugs That Increase </a></li>
+          <li><a href="#">Cardiovascular Risk </a></li>
+          <li><a href="#">The Factors That Influence </a></li>
+          <li><a href="#">Diagnosis</a></li>
+          <li><a href="#">Assessment</a></li>
+          <li><a href="#">Unusual Types of Hypertension</a></li>
+          <li><a href="#">Definitions of High Blood Pressure </a></li>
+          <li><a href="#">BP Measurement </a></li>
+          <li><a href="#">Lifestyle</a></li>
+          <li><a href="#">Physical Activity</a></li>
+          <li><a href="#">Diet</a></li>
+          <li><a href="#">Weight</a></li>
+          <li><a href="#">Salt</a></li>
+        </ul>
+      </div>
+      <span class="menubackdrop"></span>
+      <div class="main-container">
+        <header class="header-area">
+          <div class="menubar">
+            <svg
+              width="15"
+              height="14"
+              viewBox="0 0 15 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.0385 1.92308H0.961553C0.430371 1.92308 0 1.4927 0 0.961553C0 0.4304 0.430371 0 0.961553 0H14.0385C14.5696 0 15 0.430371 15 0.961553C15 1.49273 14.5696 1.92308 14.0385 1.92308Z"
+                fill="#fff"
+              />
+              <path
+                d="M8.65386 7.69233H0.961553C0.430371 7.69233 0 7.26193 0 6.73078C0 6.19963 0.430371 5.76923 0.961553 5.76923H8.65386C9.18501 5.76923 9.61541 6.1996 9.61541 6.73078C9.61541 7.26196 9.18501 7.69233 8.65386 7.69233Z"
+                fill="#fff"
+              />
+              <path
+                d="M14.0383 7.69233H12.4999C11.9687 7.69233 11.5383 7.26196 11.5383 6.73078C11.5383 6.1996 11.9687 5.76923 12.4999 5.76923H14.0383C14.5695 5.76923 14.9999 6.1996 14.9999 6.73078C14.9999 7.26196 14.5695 7.69233 14.0383 7.69233Z"
+                fill="#fff"
+              />
+              <path
+                d="M14.0385 13.4616H0.961553C0.430371 13.4616 0 13.0312 0 12.5C0 11.9689 0.430371 11.5385 0.961553 11.5385H14.0385C14.5696 11.5385 15 11.9688 15 12.5C15 13.0312 14.5696 13.4616 14.0385 13.4616Z"
+                fill="#fff"
+              />
+            </svg>
+          </div>
+          <div class="profile">
+            <i class="fa fa-user icon"></i>
+            <span class="name"> John </span>
+            <i class="fa fa-angle-down arrow"></i>
+            <ul class="profile-dowpdown">
+              <li><a href="profile.html">Profile</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="p-30">
+          <form class="profile-wrap" id="loginForm">
+            <h2 class="edit-title mb-30">Edit Profile</h2>
+
+            <div class="row">
+              <div class="col-12">
+                <div class="upload-profile-image">
+                  <label>Upload photo</label>
+                  <div class="upload-images">
+                    <div class="upload-img">
+                      <img
+                        class="preview_profile"
+                        src="assets/images/image-avatar.svg"
+                        alt="avatar"
+                      />
+                    </div>
+                    <br />
+                    <button class="upload_btn-wrap">
+                      Upload Image
+                      <input type="file" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="clinical_study">Clinical Study</label>
+                  <ul class="input">
+                    <li>
+                      <label for="clinical_study_yes">
+                        <input
+                          type="radio"
+                          name="clinical_study"
+                          id="clinical_study_yes"
+                        />
+                        Yes
+                      </label>
+                    </li>
+                    <li>
+                      <label for="clinical_study_no">
+                        <input
+                          type="radio"
+                          name="clinical_study"
+                          id="clinical_study_no"
+                        />
+                        No
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="name_of_clinical_study"
+                    >Name of Clinical Study</label
+                  >
+                  <div class="input">
+                    <select
+                      name="name_of_clinical_study"
+                      id="name_of_clinical_study"
+                    >
+                      <option value="">Select name of clinical study</option>
+                      <option value="1">Option 1</option>
+                      <option value="2">Option 2</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="user_trial_ID">User Trial ID </label>
+                  <div class="input">
+                    <input
+                      type="text"
+                      placeholder="Type trial id"
+                      name="user_trial_ID"
+                      id="user_trial_ID"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="email">E-mail</label>
+                  <div class="input">
+                    <input
+                      type="email"
+                      placeholder="email"
+                      name="email"
+                      id="email"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="dob">Date of Birth</label>
+                  <div class="input">
+                    <input
+                      type="date"
+                      placeholder="Date of Birth"
+                      name="dob"
+                      id="dob"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="ethnicity">Ethnicity </label>
+                  <div class="input">
+                    <select name="ethnicity" id="ethnicity">
+                      <option value="">Select ethnicity status</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="smoking_status">Smoking Status </label>
+                  <div class="input">
+                    <select name="smoking_status" id="smoking_status">
+                      <option value="">Select smoking status</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="alcohol_status">Alcohol status</label>
+                  <div class="input">
+                    <select name="alcohol_status" id="alcohol_status">
+                      <option value="">Select alcohol status</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                      <option value="other">other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="height">Height</label>
+                  <div class="input">
+                    <input
+                      type="text"
+                      placeholder="Type height in metres"
+                      name="height"
+                      id="height"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="weight">Weight</label>
+                  <div class="input">
+                    <input
+                      type="text"
+                      placeholder="Type weight in kilograms"
+                      name="weight"
+                      id="weight"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="bmi">BMI</label>
+                  <div class="input">
+                    <input
+                      type="text"
+                      placeholder="Type BMI"
+                      name="bmi"
+                      id="bmi"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="hypertension">Hypertension</label>
+                  <ul class="input">
+                    <li>
+                      <label for="hypertension_yes">
+                        <input
+                          type="radio"
+                          name="hypertension"
+                          id="hypertension_yes"
+                        />
+                        Yes
+                      </label>
+                    </li>
+                    <li>
+                      <label for="hypertension_no">
+                        <input
+                          type="radio"
+                          name="hypertension"
+                          id="hypertension_no"
+                        />
+                        No
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="on_treatment_for_hypertension">
+                    On Treatment for Hypertension
+                  </label>
+                  <ul class="input">
+                    <li>
+                      <label for="on_treatment_for_hypertension_yes">
+                        <input
+                          type="radio"
+                          name="on_treatment_for_hypertension"
+                          id="on_treatment_for_hypertension_yes"
+                        />
+                        Yes
+                      </label>
+                    </li>
+                    <li>
+                      <label for="on_treatment_for_hypertension_no">
+                        <input
+                          type="radio"
+                          name="on_treatment_for_hypertension"
+                          id="on_treatment_for_hypertension_no"
+                        />
+                        No
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="on_treatment_for_diabetes">
+                    On Treatment for Diabetes
+                  </label>
+                  <ul class="input">
+                    <li>
+                      <label for="on_treatment_for_diabetes_yes">
+                        <input
+                          type="radio"
+                          name="on_treatment_for_diabetes"
+                          id="on_treatment_for_diabetes_yes"
+                        />
+                        Yes
+                      </label>
+                    </li>
+                    <li>
+                      <label for="on_treatment_for_diabetes_no">
+                        <input
+                          type="radio"
+                          name="on_treatment_for_diabetes"
+                          id="on_treatment_for_diabetes_no"
+                        />
+                        No
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <div class="input-style">
+                  <label for="consent"> Consent </label>
+                  <ul class="input">
+                    <li>
+                      <label for="consent_yes">
+                        <input type="radio" name="consent" id="consent_yes" />
+                        Yes
+                      </label>
+                    </li>
+                    <li>
+                      <label for="consent_no">
+                        <input type="radio" name="consent" id="consent_no" />
+                        No
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="text-right">
+              <button class="login-btn">Update</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/jquery.scrollbar.min.js"></script>
+    <script src="assets/js/rateyo.min.js"></script>
+    <script>
+      function readURL(input) {
+        if (input.files && input.files[0]) {
+          var reader = new FileReader();
+          reader.onload = function (e) {
+            $(".upload-img").find(".preview_profile").show();
+            $(".upload-img")
+              .find(".preview_profile")
+              .attr("src", e.target.result);
+          };
+          reader.readAsDataURL(input.files[0]);
+        }
+      }
+
+      $(document).on("change", ".upload_btn-wrap input", function () {
+        readURL(this);
+      });
+      $(document).on("click", ".menubar", function () {
+        $(".slidebar-wrap").toggleClass("active");
+        $(".menubackdrop").show();
+      });
+      $(document).on("click", ".menubackdrop", function () {
+        $(".slidebar-wrap").toggleClass("active");
+        $(this).hide();
+      });
+    </script>
+  </body>
+</html>
